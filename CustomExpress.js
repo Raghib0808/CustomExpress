@@ -1,0 +1,10 @@
+// making my own custom express server using http module
+
+const http = require('http');
+
+const server = http.createServer();
+
+server.listen(8080,()=>{
+    console.log('working fine ');
+    
+})
